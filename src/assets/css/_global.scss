@@ -1,0 +1,109 @@
+// Colors
+$color-brand-primary: #1C98F8;
+$color-brand-primary-hover: #1B83D4;
+$color-brand-secondary : #FF3900;
+$color-brand-secondary-hover : #EB3704;
+$color-brand-tertiary : #FFB606;
+$color-brand-tertiary-hover : #FFAA06;
+$color-brand-quaternary : #2AC43F;
+$color-brand-quaternary-hover : #21B836;
+
+$color-neutral-1 : #FFFFFF;
+$color-neutral-2 : #F0F3F5;
+$color-neutral-3 : #D5DBDF;
+$color-neutral-4 : #272E33;
+$color-neutral-5 : #1F272C;
+$color-neutral-6 : #101920;
+
+$color-lable-main : #101920;
+$color-lable-paragraph : #55636F;
+$color-lable-lable : #A1ACB5;
+$color-lable-disabled : #D5DBDF;
+$color-lable-button : #FFFFFF;
+
+// Animations
+$transition-long: unquote('.75s cubic-bezier(0.77, 0, 0.175, 1)');
+$transition-medium: unquote('.5s cubic-bezier(0.77, 0, 0.175, 1)');
+$transition-main: unquote('.25s cubic-bezier(0.645, 0.045, 0.355, 1)');
+$transition-fast: unquote('.15s cubic-bezier(0.645, 0.045, 0.355, 1)');
+
+// Text
+@mixin title-hero {
+    font-family: "Rubik";
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 60px;
+}
+@mixin title-extra-large {
+    font-family: "Rubik";
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 48px;
+}
+@mixin title-large {
+    font-family: "Rubik";
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 40px;
+}
+@mixin title-medium {
+    font-family: "Rubik";
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+}
+@mixin title-small {
+    font-family: "Rubik";
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+}
+@mixin title-extra-small {
+    font-family: "Rubik";
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+}
+@mixin paragraph-lead {
+    font-family: "Rubik";
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+}
+@mixin paragraph-regular {
+    font-family: "Rubik";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+@mixin paragraph-medium {
+    font-family: "Rubik";
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+}
+@mixin paragraph-bold {
+    font-family: "Rubik";
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+}
+@mixin paragraph-underline {
+    font-family: "Rubik";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-decoration-line: underline;
+}
+@mixin lable-large {
+    font-family: "Rubik";
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+}
+@mixin lable-small {
+    font-family: "Rubik";
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+}

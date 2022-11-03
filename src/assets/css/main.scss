@@ -1,0 +1,33 @@
+@import "normalize.css";
+@import "fonts.scss";
+
+$block-padding: 24px;
+
+html,
+body {
+   min-width: 320px;
+   height: 100%;
+   position: relative;
+   background: $color-neutral-5;
+   overflow-y: scroll;
+   z-index: -100;
+}
+.body {
+   display: flex;
+   flex-direction: column;
+   font-family: "Rubik", sans-serif;
+}
+.body__wrapper {
+   display: flex;
+   flex-direction: column;
+   flex: 1 0 auto;
+   overflow: hidden;
+}
+.block-wrapper {
+   min-width: 320px - ($block-padding * 2);
+   max-width: 1440px - ($block-padding * 2);
+   padding-left: $block-padding;
+   padding-right: $block-padding;
+   margin-left: auto;
+   margin-right: auto;
+}
